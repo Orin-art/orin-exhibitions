@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "schemaVersion": 1,
+    "document": {
+      "name": "Untitled"
+    },
+    "currentPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "targetPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "selection": [
+      "1:3",
+      "1:26",
+      "1:75"
+    ],
+    "node": {
+      "id": "1:6",
+      "name": "Link / Home  01",
+      "type": "FRAME",
+      "x": 1252,
+      "y": 24,
+      "width": 140,
+      "height": 48,
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "layoutWrap": "NO_WRAP",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "itemSpacing": 0,
+      "counterAxisSpacing": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "layoutAlign": "INHERIT",
+      "layoutGrow": 0,
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "fills": [],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "explicitVariableModes": {},
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "rotation": 0,
+      "absoluteBoundingBox": {
+        "x": 1252,
+        "y": 104,
+        "width": 140,
+        "height": 48
+      },
+      "absoluteRenderBounds": {
+        "x": 1252,
+        "y": 104,
+        "width": 140,
+        "height": 48
+      },
+      "clipsContent": true,
+      "topLeftRadius": 0,
+      "topRightRadius": 0,
+      "bottomLeftRadius": 0,
+      "bottomRightRadius": 0,
+      "strokeAlign": "INSIDE"
+    },
+    "visitedNodes": 1,
+    "warnings": [],
+    "omissions": [],
+    "kind": "node-details",
+    "children": {
+      "offset": 0,
+      "total": 1,
+      "ids": [
+        "1:7"
+      ],
+      "nextOffset": null
+    },
+    "text": null
+  },
+  "requestId": "90c7fe1a-7e6f-40ef-b92f-665d7406f7f6"
+}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "nodeId": "1:3",
+  "startedAt": "2026-10-04T16:15:24.369Z",
+  "status": "collected",
+  "visualReview": "pending",
+  "consistency": "sequential-not-atomic",
+  "structure": "structure.json",
+  "reads": [
+    {
+      "kind": "inspect",
+      "args": [
+        "1:3",
+        "--depth",
+        "0",
+        "--limit",
+        "1"
+      ],
+      "path": "reads/000001.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:3"
+      ],
+      "path": "reads/000002.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:4"
+      ],
+      "path": "reads/000003.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:5"
+      ],
+      "path": "reads/000004.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:6"
+      ],
+      "path": "reads/000005.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:8"
+      ],
+      "path": "reads/000006.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:9"
+      ],
+      "path": "reads/000007.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:10"
+      ],
+      "path": "reads/000008.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:11"
+      ],
+      "path": "reads/000009.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:19"
+      ],
+      "path": "reads/000010.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:20"
+      ],
+      "path": "reads/000011.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:21"
+      ],
+      "path": "reads/000012.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:22"
+      ],
+      "path": "reads/000013.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:23"
+      ],
+      "path": "reads/000014.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:7"
+      ],
+      "path": "reads/000015.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:12"
+      ],
+      "path": "reads/000016.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:13"
+      ],
+      "path": "reads/000017.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:18"
+      ],
+      "path": "reads/000018.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:24"
+      ],
+      "path": "reads/000019.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:14"
+      ],
+      "path": "reads/000020.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:15"
+      ],
+      "path": "reads/000021.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:16"
+      ],
+      "path": "reads/000022.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:17"
+      ],
+      "path": "reads/000023.json",
+      "success": true
+    },
+    {
+      "kind": "screenshot",
+      "args": [
+        "1:3",
+        "--scale",
+        "1"
+      ],
+      "path": "reads/000024.json",
+      "success": true
+    },
+    {
+      "kind": "asset",
+      "args": [
+        "1:11",
+        "svg"
+      ],
+      "path": "reads/000025.json",
+      "success": true
+    }
+  ],
+  "assets": [
+    {
+      "nodeId": "1:11",
+      "name": "asterisk",
+      "format": "svg",
+      "path": "assets/asterisk.svg",
+      "bytes": 746
+    }
+  ],
+  "requestedAssets": [
+    {
+      "nodeId": "1:11",
+      "name": "asterisk",
+      "format": "svg"
+    }
+  ],
+  "warnings": [],
+  "missingNodeIds": [],
+  "requestCount": 25,
+  "document": {
+    "name": "Untitled"
+  },
+  "targetPage": {
+    "id": "0:1",
+    "name": "Page 1"
+  },
+  "referenceSize": {
+    "width": 1440,
+    "height": 900
+  },
+  "variables": [],
+  "variableCollections": [],
+  "screenshot": {
+    "path": "reference.png",
+    "width": 1440,
+    "height": 900,
+    "scale": 1
+  },
+  "finishedAt": "2026-10-04T16:15:25.256Z"
+}

@@ -1,0 +1,168 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "schemaVersion": 1,
+    "document": {
+      "name": "Untitled"
+    },
+    "currentPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "targetPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "selection": [
+      "1:3",
+      "1:26",
+      "1:75"
+    ],
+    "node": {
+      "id": "1:98",
+      "name": "Email placeholder / replace before publication",
+      "type": "TEXT",
+      "x": 48,
+      "y": 726,
+      "width": 272,
+      "height": 26,
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "layoutAlign": "INHERIT",
+      "layoutGrow": 0,
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.09019608050584793,
+            "g": 0.09019608050584793,
+            "b": 0.0784313753247261
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "boundVariables": {},
+      "explicitVariableModes": {},
+      "fontName": {
+        "family": "Inter",
+        "style": "Medium",
+        "variationSettings": {
+          "slnt": 0,
+          "wght": 500
+        }
+      },
+      "fontSize": 26,
+      "fontWeight": 500,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "rotation": 0,
+      "absoluteBoundingBox": {
+        "x": 3248,
+        "y": 806,
+        "width": 272,
+        "height": 26
+      },
+      "absoluteRenderBounds": {
+        "x": 3248.61865234375,
+        "y": 808.8323974609375,
+        "width": 265.285888671875,
+        "height": 19.48150634765625
+      },
+      "strokeAlign": "OUTSIDE"
+    },
+    "visitedNodes": 1,
+    "warnings": [],
+    "omissions": [],
+    "kind": "node-details",
+    "children": {
+      "offset": 0,
+      "total": 0,
+      "ids": [],
+      "nextOffset": null
+    },
+    "text": {
+      "start": 0,
+      "end": 18,
+      "total": 18,
+      "characters": "YOUR EMAIL HERE  ↗",
+      "segments": [
+        {
+          "characters": "YOUR EMAIL HERE  ↗",
+          "start": 0,
+          "end": 18,
+          "fontSize": 26,
+          "fontName": {
+            "family": "Inter",
+            "style": "Medium",
+            "variationSettings": {
+              "slnt": 0,
+              "wght": 500
+            }
+          },
+          "fontWeight": 500,
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL",
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 100
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.09019608050584793,
+                "g": 0.09019608050584793,
+                "b": 0.0784313753247261
+              },
+              "boundVariables": {}
+            }
+          ],
+          "listOptions": {
+            "type": "NONE"
+          },
+          "hyperlink": null,
+          "boundVariables": {},
+          "paragraphSpacing": 0,
+          "paragraphIndent": 0
+        }
+      ],
+      "nextStart": null,
+      "warnings": []
+    }
+  },
+  "requestId": "0e2eda09-9ee7-464d-9669-63476321f380"
+}

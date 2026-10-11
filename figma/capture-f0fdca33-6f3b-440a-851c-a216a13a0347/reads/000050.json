@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "png-artifact",
+    "path": "D:\\codex\\figma-agent\\outputs\\screenshot-5a089eaf-f3f0-4793-bd14-d0fbe49790d8.png",
+    "mimeType": "image/png",
+    "nodeId": "1:26",
+    "name": "ORIN / 02 — First scroll / Work 90%",
+    "scale": 1,
+    "width": 1440,
+    "height": 900,
+    "bytes": 90392
+  },
+  "requestId": "5a089eaf-f3f0-4793-bd14-d0fbe49790d8"
+}

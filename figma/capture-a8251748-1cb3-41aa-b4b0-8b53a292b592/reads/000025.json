@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "svg-artifact",
+    "nodeId": "1:11",
+    "name": "Sculpture / orbital asterisk",
+    "path": "D:\\codex\\figma-agent\\outputs\\asset-58ed639e-c75e-43e0-a354-1f939a9bf9f4.svg",
+    "mimeType": "image/svg+xml",
+    "bytes": 746
+  },
+  "requestId": "a04b0b25-2ef9-4d9c-852f-6870590bad0b"
+}

@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "schemaVersion": 1,
+    "document": {
+      "name": "Untitled"
+    },
+    "currentPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "targetPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "selection": [
+      "1:3",
+      "1:26",
+      "1:75"
+    ],
+    "node": {
+      "id": "1:44",
+      "name": "Vector",
+      "type": "VECTOR",
+      "x": 5,
+      "y": 10,
+      "width": 262.5333251953125,
+      "height": 227,
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "layoutAlign": "INHERIT",
+      "layoutGrow": 0,
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.1411764770746231,
+            "g": 0.29411765933036804,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "cornerRadius": 0,
+      "effects": [],
+      "boundVariables": {},
+      "explicitVariableModes": {},
+      "constraints": {
+        "horizontal": "SCALE",
+        "vertical": "SCALE"
+      },
+      "rotation": 0,
+      "absoluteBoundingBox": {
+        "x": 1711.4000244140625,
+        "y": 494,
+        "width": 262.5333251953125,
+        "height": 227
+      },
+      "absoluteRenderBounds": {
+        "x": 1711.4000244140625,
+        "y": 494,
+        "width": 262.5333251953125,
+        "height": 227
+      },
+      "strokeAlign": "INSIDE"
+    },
+    "visitedNodes": 1,
+    "warnings": [],
+    "omissions": [],
+    "kind": "node-details",
+    "children": {
+      "offset": 0,
+      "total": 0,
+      "ids": [],
+      "nextOffset": null
+    },
+    "text": null
+  },
+  "requestId": "a62e4133-b522-44b2-9c96-3b4bfbcc0678"
+}

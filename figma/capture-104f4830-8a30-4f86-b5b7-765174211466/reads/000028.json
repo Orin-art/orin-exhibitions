@@ -1,0 +1,168 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "schemaVersion": 1,
+    "document": {
+      "name": "Untitled"
+    },
+    "currentPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "targetPage": {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    "selection": [
+      "1:3",
+      "1:26",
+      "1:75"
+    ],
+    "node": {
+      "id": "1:149",
+      "name": "Poster foot",
+      "type": "TEXT",
+      "x": 20,
+      "y": 308,
+      "width": 115,
+      "height": 10,
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "layoutAlign": "INHERIT",
+      "layoutGrow": 0,
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "maxWidth": null,
+      "minHeight": null,
+      "maxHeight": null,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.09019608050584793,
+            "g": 0.09019608050584793,
+            "b": 0.0784313753247261
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokes": [],
+      "strokeWeight": 1,
+      "effects": [],
+      "boundVariables": {},
+      "explicitVariableModes": {},
+      "fontName": {
+        "family": "Inter",
+        "style": "Medium",
+        "variationSettings": {
+          "slnt": 0,
+          "wght": 500
+        }
+      },
+      "fontSize": 10,
+      "fontWeight": 500,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textAlignHorizontal": "LEFT",
+      "textAutoResize": "WIDTH_AND_HEIGHT",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "rotation": 0,
+      "absoluteBoundingBox": {
+        "x": 1668,
+        "y": 1812,
+        "width": 115,
+        "height": 10
+      },
+      "absoluteRenderBounds": {
+        "x": 1668.24853515625,
+        "y": 1813.6278076171875,
+        "width": 113.7890625,
+        "height": 7.492919921875
+      },
+      "strokeAlign": "OUTSIDE"
+    },
+    "visitedNodes": 1,
+    "warnings": [],
+    "omissions": [],
+    "kind": "node-details",
+    "children": {
+      "offset": 0,
+      "total": 0,
+      "ids": [],
+      "nextOffset": null
+    },
+    "text": {
+      "start": 0,
+      "end": 19,
+      "total": 19,
+      "characters": "A STUDY IN CONTRAST",
+      "segments": [
+        {
+          "characters": "A STUDY IN CONTRAST",
+          "start": 0,
+          "end": 19,
+          "fontSize": 10,
+          "fontName": {
+            "family": "Inter",
+            "style": "Medium",
+            "variationSettings": {
+              "slnt": 0,
+              "wght": 500
+            }
+          },
+          "fontWeight": 500,
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL",
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 100
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.09019608050584793,
+                "g": 0.09019608050584793,
+                "b": 0.0784313753247261
+              },
+              "boundVariables": {}
+            }
+          ],
+          "listOptions": {
+            "type": "NONE"
+          },
+          "hyperlink": null,
+          "boundVariables": {},
+          "paragraphSpacing": 0,
+          "paragraphIndent": 0
+        }
+      ],
+      "nextStart": null,
+      "warnings": []
+    }
+  },
+  "requestId": "8b9377cb-501b-4987-9ad1-0a90e4efc7a5"
+}

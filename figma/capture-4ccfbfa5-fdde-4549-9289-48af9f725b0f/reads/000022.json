@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "png-artifact",
+    "path": "D:\\codex\\figma-agent\\outputs\\screenshot-56011237-18a9-4132-8f07-4844b6205e48.png",
+    "mimeType": "image/png",
+    "nodeId": "1:178",
+    "name": "ORIN / 06 — Contact / expanded",
+    "scale": 1,
+    "width": 1440,
+    "height": 900,
+    "bytes": 40493
+  },
+  "requestId": "56011237-18a9-4132-8f07-4844b6205e48"
+}

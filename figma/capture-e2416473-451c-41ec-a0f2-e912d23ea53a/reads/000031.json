@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "png-artifact",
+    "path": "D:\\codex\\figma-agent\\outputs\\screenshot-1bc0c50e-87dc-4b65-b3ff-872254280fc3.png",
+    "mimeType": "image/png",
+    "nodeId": "1:75",
+    "name": "ORIN / 03 — Second scroll / Contact 80%",
+    "scale": 1,
+    "width": 1440,
+    "height": 900,
+    "bytes": 44342
+  },
+  "requestId": "1bc0c50e-87dc-4b65-b3ff-872254280fc3"
+}

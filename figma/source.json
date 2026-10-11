@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "project": "my-design-project",
+  "implementationDate": "2026-10-05",
+  "timezone": "Asia/Shanghai",
+  "pathBase": "project root (frontend/My Design Project)",
+  "document": "Untitled",
+  "targetPage": {
+    "id": "0:1",
+    "name": "Page 1"
+  },
+  "referenceViewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "captures": [
+    {
+      "state": "home",
+      "nodeId": "1:3",
+      "source": "figma/capture-a8251748-1cb3-41aa-b4b0-8b53a292b592/source.json"
+    },
+    {
+      "state": "work-stack",
+      "nodeId": "1:26",
+      "source": "figma/capture-f0fdca33-6f3b-440a-851c-a216a13a0347/source.json"
+    },
+    {
+      "state": "contact-stack",
+      "nodeId": "1:75",
+      "source": "figma/capture-e2416473-451c-41ec-a0f2-e912d23ea53a/source.json"
+    },
+    {
+      "state": "home-full",
+      "nodeId": "1:105",
+      "source": "figma/capture-b39469ea-a3be-46bf-a231-3e06d2b9f8b5/source.json"
+    },
+    {
+      "state": "work-full",
+      "nodeId": "1:132",
+      "source": "figma/capture-104f4830-8a30-4f86-b5b7-765174211466/source.json"
+    },
+    {
+      "state": "contact-full",
+      "nodeId": "1:178",
+      "source": "figma/capture-4ccfbfa5-fdde-4549-9289-48af9f725b0f/source.json"
+    }
+  ],
+  "assets": [
+    {
+      "nodeId": "1:11",
+      "path": "public/assets/asterisk.svg",
+      "via": "collect"
+    },
+    {
+      "nodeId": "1:144",
+      "path": "public/assets/form.svg",
+      "via": "collect"
+    },
+    {
+      "nodeId": "1:152",
+      "path": "public/assets/signal.svg",
+      "via": "collect"
+    },
+    {
+      "nodeId": "1:166",
+      "path": "public/assets/playground.svg",
+      "via": "collect"
+    },
+    {
+      "nodeId": "1:189",
+      "path": "public/assets/arrow.svg",
+      "via": "collect"
+    },
+    {
+      "nodeId": "1:41",
+      "path": "public/assets/form-stack.svg",
+      "via": "asset CLI after verified work-stack capture"
+    },
+    {
+      "nodeId": "1:49",
+      "path": "public/assets/signal-stack.svg",
+      "via": "asset CLI after verified work-stack capture"
+    },
+    {
+      "nodeId": "1:63",
+      "path": "public/assets/playground-stack.svg",
+      "via": "asset CLI after verified work-stack capture"
+    }
+  ],
+  "componentMapping": {
+    "Page headers and footer links": "src/main.js header() / footer()",
+    "Four full-page bodies": "src/main.js content() / surface(); About added directly in frontend after Work",
+    "Exposed underlying pages": "src/main.js rail buttons, src/style.css .rail",
+    "Stacked and expanded states": "src/navigation.js stacked stage + expanded page"
+  },
+  "assumptions": [
+    "Original Figma captures contain three pages. User later requested About after Work: the frontend now has Home, Work, About, Contact at widths 100%, 90%, 80%, 70%. Original Figma captures remain unchanged historical references.",
+    "About was designed directly in the frontend with warm paper background, editable placeholder introduction, optional portrait, draggable stickers and Currently rows. No personal biography or interests were fabricated.",
+    "Figma exported SVG graphics remain independent assets; text and layout remain HTML/CSS.",
+    "Desktop follows 1440x900; mobile <=760px uses a vertical work list and vertical rail labels.",
+    "Native internal scrolling takes precedence on short or narrow screens; a fresh gesture at an edge changes page.",
+    "Sheet descent and reverse use 700ms; label expansion uses a 550ms reveal from the rail. Reduced motion is instantaneous.",
+    "A 180ms idle gap separates wheel gestures; events during a transition do not queue another transition.",
+    "Expanded pages keep all four page labels. Scrolling continues to the adjacent page's stacked state.",
+    "Project cards open a native modal image preview as requested in the frontend follow-up. The preview uses the full-size asset, or optional previewAsset; no extra website route is added. Contact email is unset until supplied.",
+    "No simulated system bars exist in the source. No system nodes were excluded. Browser dynamic viewport units own the page height.",
+    "Inter is served locally through @fontsource/inter; browser and Figma glyph metrics can differ slightly."
+  ],
+  "captureReview": {
+    "status": "all six captures collected",
+    "unresolvedWarnings": [],
+    "missingNodeIds": [],
+    "note": "Two CLI launches failed from temporary host memory exhaustion before a capture directory was created. Processes were confirmed ended and Bridge was read back before fresh captures. No Figma mutations or automatic replay occurred.",
+    "visualValidation": "figma/validation.md"
+  },
+  "frontendFork": {
+    "date": "2026-10-08",
+    "source": "../orin-portfolio",
+    "change": "Move header page labels and exposed rails to the left; anchor sheets to the right; reveal expanded pages from the left.",
+    "originalPreserved": true
+  }
+}

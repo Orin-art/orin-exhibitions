@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "png-artifact",
+    "path": "D:\\codex\\figma-agent\\outputs\\screenshot-3c56caa8-305c-49b6-a2bf-219785d836b6.png",
+    "mimeType": "image/png",
+    "nodeId": "1:3",
+    "name": "ORIN / 01 — Entry / single screen",
+    "scale": 1,
+    "width": 1440,
+    "height": 900,
+    "bytes": 48343
+  },
+  "requestId": "3c56caa8-305c-49b6-a2bf-219785d836b6"
+}

@@ -1,0 +1,4 @@
+import {chromium} from 'playwright';
+const browser=await chromium.launch({channel:'msedge'});const page=await browser.newPage({viewport:{width:1440,height:900}});
+await page.goto('http://127.0.0.1:4198/');await page.getByRole('button',{name:'Explore the exhibition'}).click();await page.waitForFunction(()=>document.querySelector('#portfolio').dataset.busy==='false');await page.getByRole('button',{name:'Book a free visit'}).click();await page.waitForFunction(()=>document.querySelector('#portfolio').dataset.busy==='false');
+const select=page.locator('.surface:not([inert]) .visit-date');await select.scrollIntoViewIfNeeded();await select.click();await page.screenshot({path:'qa/visit-date-picker.png'});console.log('Styled native picker supported:',await page.evaluate(()=>CSS.supports('appearance','base-select')));await page.keyboard.press('Escape');await select.selectOption('2026-11-01');console.log('Selected:',await select.inputValue());await browser.close();

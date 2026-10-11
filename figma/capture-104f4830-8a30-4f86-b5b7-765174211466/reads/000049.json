@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "svg-artifact",
+    "nodeId": "1:152",
+    "name": "Concept artwork / 1",
+    "path": "D:\\codex\\figma-agent\\outputs\\asset-ae6e1995-f976-4569-a3f9-961101de24a9.svg",
+    "mimeType": "image/svg+xml",
+    "bytes": 17158
+  },
+  "requestId": "7425ede3-4660-47e7-bb0a-73a9f771e8cd"
+}

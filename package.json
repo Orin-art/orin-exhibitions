@@ -1,0 +1,14 @@
+{
+  "name": "my-design-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4198 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4198 --strictPort",
+    "test": "playwright test"
+  },
+  "dependencies": { "@fontsource/inter": "5.3.0" },
+  "devDependencies": { "vite": "7.3.6", "@playwright/test": "1.63.0" }
+}

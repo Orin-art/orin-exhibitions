@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "nodeIds": [],
+  "data": {
+    "kind": "svg-artifact",
+    "nodeId": "1:189",
+    "name": "Conversation / arrow",
+    "path": "D:\\codex\\figma-agent\\outputs\\asset-076f3d52-e97b-4dba-80fb-e0c552239d93.svg",
+    "mimeType": "image/svg+xml",
+    "bytes": 185
+  },
+  "requestId": "d1d438c8-036f-4a97-a2d8-185bab4382bb"
+}

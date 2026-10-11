@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "nodeId": "1:105",
+  "startedAt": "2026-10-04T16:15:49.556Z",
+  "status": "collected",
+  "visualReview": "pending",
+  "consistency": "sequential-not-atomic",
+  "structure": "structure.json",
+  "reads": [
+    {
+      "kind": "inspect",
+      "args": [
+        "1:105",
+        "--depth",
+        "0",
+        "--limit",
+        "1"
+      ],
+      "path": "reads/000001.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:105"
+      ],
+      "path": "reads/000002.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:106"
+      ],
+      "path": "reads/000003.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:107"
+      ],
+      "path": "reads/000004.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:108"
+      ],
+      "path": "reads/000005.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:110"
+      ],
+      "path": "reads/000006.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:112"
+      ],
+      "path": "reads/000007.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:114"
+      ],
+      "path": "reads/000008.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:115"
+      ],
+      "path": "reads/000009.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:116"
+      ],
+      "path": "reads/000010.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:117"
+      ],
+      "path": "reads/000011.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:125"
+      ],
+      "path": "reads/000012.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:126"
+      ],
+      "path": "reads/000013.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:127"
+      ],
+      "path": "reads/000014.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:128"
+      ],
+      "path": "reads/000015.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:129"
+      ],
+      "path": "reads/000016.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:109"
+      ],
+      "path": "reads/000017.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:111"
+      ],
+      "path": "reads/000018.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:113"
+      ],
+      "path": "reads/000019.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:118"
+      ],
+      "path": "reads/000020.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:119"
+      ],
+      "path": "reads/000021.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:124"
+      ],
+      "path": "reads/000022.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:130"
+      ],
+      "path": "reads/000023.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:120"
+      ],
+      "path": "reads/000024.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:121"
+      ],
+      "path": "reads/000025.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:122"
+      ],
+      "path": "reads/000026.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:123"
+      ],
+      "path": "reads/000027.json",
+      "success": true
+    },
+    {
+      "kind": "screenshot",
+      "args": [
+        "1:105",
+        "--scale",
+        "1"
+      ],
+      "path": "reads/000028.json",
+      "success": true
+    }
+  ],
+  "assets": [],
+  "requestedAssets": [],
+  "warnings": [],
+  "missingNodeIds": [],
+  "requestCount": 28,
+  "document": {
+    "name": "Untitled"
+  },
+  "targetPage": {
+    "id": "0:1",
+    "name": "Page 1"
+  },
+  "referenceSize": {
+    "width": 1440,
+    "height": 900
+  },
+  "variables": [],
+  "variableCollections": [],
+  "screenshot": {
+    "path": "reference.png",
+    "width": 1440,
+    "height": 900,
+    "scale": 1
+  },
+  "finishedAt": "2026-10-04T16:15:54.538Z"
+}

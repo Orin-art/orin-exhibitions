@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "nodeId": "1:178",
+  "startedAt": "2026-10-04T16:15:27.900Z",
+  "status": "collected",
+  "visualReview": "pending",
+  "consistency": "sequential-not-atomic",
+  "structure": "structure.json",
+  "reads": [
+    {
+      "kind": "inspect",
+      "args": [
+        "1:178",
+        "--depth",
+        "0",
+        "--limit",
+        "1"
+      ],
+      "path": "reads/000001.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:178"
+      ],
+      "path": "reads/000002.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:179"
+      ],
+      "path": "reads/000003.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:180"
+      ],
+      "path": "reads/000004.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:181"
+      ],
+      "path": "reads/000005.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:183"
+      ],
+      "path": "reads/000006.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:185"
+      ],
+      "path": "reads/000007.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:187"
+      ],
+      "path": "reads/000008.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:188"
+      ],
+      "path": "reads/000009.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:189"
+      ],
+      "path": "reads/000010.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:191"
+      ],
+      "path": "reads/000011.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:192"
+      ],
+      "path": "reads/000012.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:193"
+      ],
+      "path": "reads/000013.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:194"
+      ],
+      "path": "reads/000014.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:195"
+      ],
+      "path": "reads/000015.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:196"
+      ],
+      "path": "reads/000016.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:182"
+      ],
+      "path": "reads/000017.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:184"
+      ],
+      "path": "reads/000018.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:186"
+      ],
+      "path": "reads/000019.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:190"
+      ],
+      "path": "reads/000020.json",
+      "success": true
+    },
+    {
+      "kind": "readNode",
+      "args": [
+        "1:197"
+      ],
+      "path": "reads/000021.json",
+      "success": true
+    },
+    {
+      "kind": "screenshot",
+      "args": [
+        "1:178",
+        "--scale",
+        "1"
+      ],
+      "path": "reads/000022.json",
+      "success": true
+    },
+    {
+      "kind": "asset",
+      "args": [
+        "1:189",
+        "svg"
+      ],
+      "path": "reads/000023.json",
+      "success": true
+    }
+  ],
+  "assets": [
+    {
+      "nodeId": "1:189",
+      "name": "arrow",
+      "format": "svg",
+      "path": "assets/arrow.svg",
+      "bytes": 185
+    }
+  ],
+  "requestedAssets": [
+    {
+      "nodeId": "1:189",
+      "name": "arrow",
+      "format": "svg"
+    }
+  ],
+  "warnings": [],
+  "missingNodeIds": [],
+  "requestCount": 23,
+  "document": {
+    "name": "Untitled"
+  },
+  "targetPage": {
+    "id": "0:1",
+    "name": "Page 1"
+  },
+  "referenceSize": {
+    "width": 1440,
+    "height": 900
+  },
+  "variables": [],
+  "variableCollections": [],
+  "screenshot": {
+    "path": "reference.png",
+    "width": 1440,
+    "height": 900,
+    "scale": 1
+  },
+  "finishedAt": "2026-10-04T16:15:28.476Z"
+}
